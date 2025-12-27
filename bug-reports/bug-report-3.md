@@ -1,4 +1,4 @@
-# 🐛 Bug Report #3
+# Bug Report #3
 
 ## Bug ID: BUG-003
 
@@ -62,23 +62,15 @@ When a user's session times out (after 30 minutes of inactivity), items in their
 
 ### Session Storage Flow
 ```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   User      │────►│   Session   │────►│  Database   │
-│ Adds Item   │     │   Storage   │     │   (cart)    │
-└─────────────┘     └──────┬──────┘     └─────────────┘
-                          │
-                          │ Session Timeout
-                          ▼
-                   ┌─────────────┐
-                   │  Session    │
-                   │  Cleared    │
-                   └──────┬──────┘
-                          │
-                          │ ❌ Cart reference lost!
-                          ▼
-                   ┌─────────────┐
-                   │  Empty Cart │
-                   └─────────────┘
+User Adds Item --> Session Storage --> Database (cart)
+                        |
+                        | Session Timeout
+                        v
+                   Session Cleared
+                        |
+                        | Cart reference lost
+                        v
+                   Empty Cart
 ```
 
 ### Code Location
@@ -98,9 +90,9 @@ Cart items were being stored with the session ID as a foreign key. When the sess
 
 ## Affected User Journeys
 
-1. ❌ Guest user adding items → session timeout → items lost
-2. ❌ Logged user adding items → session timeout → items lost
-3. ✅ Logged user adding items → active session → items retained
+1. Guest user adding items --> session timeout --> items lost
+2. Logged user adding items --> session timeout --> items lost
+3. Logged user adding items --> active session --> items retained (Working)
 
 ---
 
@@ -124,10 +116,10 @@ Cart items were being stored with the session ID as a foreign key. When the sess
 
 | Test Scenario | Before Fix | After Fix |
 |--------------|------------|-----------|
-| Session timeout - logged user | ❌ Cart empty | ✅ Cart retained |
-| Session timeout - guest user | ❌ Cart empty | ✅ Cart retained* |
-| Manual logout | ✅ Cart retained | ✅ Cart retained |
-| Browser close/reopen | ❌ Cart empty | ✅ Cart retained |
+| Session timeout - logged user | Cart empty | Cart retained |
+| Session timeout - guest user | Cart empty | Cart retained* |
+| Manual logout | Cart retained | Cart retained |
+| Browser close/reopen | Cart empty | Cart retained |
 
 *Guest cart is now saved with browser fingerprint
 
@@ -137,12 +129,12 @@ Cart items were being stored with the session ID as a foreign key. When the sess
 
 | Test Case | Status |
 |-----------|--------|
-| Add item to cart | ✅ Pass |
-| Remove item from cart | ✅ Pass |
-| Update item quantity | ✅ Pass |
-| Cart persistence across sessions | ✅ Pass |
-| Cart merge on login | ✅ Pass |
-| Checkout flow | ✅ Pass |
+| Add item to cart | Pass |
+| Remove item from cart | Pass |
+| Update item quantity | Pass |
+| Cart persistence across sessions | Pass |
+| Cart merge on login | Pass |
+| Checkout flow | Pass |
 
 ---
 
@@ -150,6 +142,6 @@ Cart items were being stored with the session ID as a foreign key. When the sess
 
 | Role | Name | Date | Status |
 |------|------|------|--------|
-| Developer | John Doe | 2024-01-18 | ✅ Fixed |
-| QA | Jane Smith | 2024-01-19 | ✅ Verified |
-| Product Owner | Bob Johnson | 2024-01-19 | ✅ Approved |
+| Developer | John Doe | 2024-01-18 | Fixed |
+| QA | Jane Smith | 2024-01-19 | Verified |
+| Product Owner | Bob Johnson | 2024-01-19 | Approved |

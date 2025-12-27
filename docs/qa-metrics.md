@@ -1,4 +1,4 @@
-# 📊 QA Metrics & KPIs
+# QA Metrics and KPIs
 
 ## Overview
 
@@ -16,19 +16,19 @@ Quality Assurance metrics (key performance indicators) are quantitative measures
 │   ┌──────────────────┐    ┌──────────────────┐                 │
 │   │   TEST METRICS   │    │  DEFECT METRICS  │                 │
 │   │                  │    │                  │                 │
-│   │ • Execution Rate │    │ • Defect Density │                 │
-│   │ • Pass/Fail Rate │    │ • Defect Leakage │                 │
-│   │ • Coverage %     │    │ • Defect Age     │                 │
-│   │ • Automation %   │    │ • Defect Removal │                 │
+│   │ - Execution Rate │    │ - Defect Density │                 │
+│   │ - Pass/Fail Rate │    │ - Defect Leakage │                 │
+│   │ - Coverage %     │    │ - Defect Age     │                 │
+│   │ - Automation %   │    │ - Defect Removal │                 │
 │   └──────────────────┘    └──────────────────┘                 │
 │                                                                 │
 │   ┌──────────────────┐    ┌──────────────────┐                 │
 │   │ PROCESS METRICS  │    │ PRODUCT METRICS  │                 │
 │   │                  │    │                  │                 │
-│   │ • Cycle Time     │    │ • Customer Bugs  │                 │
-│   │ • Test Efficiency│    │ • Availability   │                 │
-│   │ • Review Effort  │    │ • MTBF/MTTR      │                 │
-│   │ • Cost per Bug   │    │ • User Satisfaction│               │
+│   │ - Cycle Time     │    │ - Customer Bugs  │                 │
+│   │ - Test Efficiency│    │ - Availability   │                 │
+│   │ - Review Effort  │    │ - MTBF/MTTR      │                 │
+│   │ - Cost per Bug   │    │ - User Satisfaction│               │
 │   └──────────────────┘    └──────────────────┘                 │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -43,7 +43,7 @@ Quality Assurance metrics (key performance indicators) are quantitative measures
 **Definition:** Percentage of test cases executed against total planned.
 
 ```
-Formula: (Executed Test Cases / Total Test Cases) × 100
+Formula: (Executed Test Cases / Total Test Cases) x 100
 ```
 
 | Status | Count | Percentage |
@@ -59,7 +59,7 @@ Formula: (Executed Test Cases / Total Test Cases) × 100
 **Definition:** Percentage of test cases that passed.
 
 ```
-Formula: (Passed Test Cases / Executed Test Cases) × 100
+Formula: (Passed Test Cases / Executed Test Cases) x 100
 ```
 
 | Status | Count | Percentage |
@@ -75,7 +75,7 @@ Formula: (Passed Test Cases / Executed Test Cases) × 100
 **Definition:** Ability of test cases to find defects.
 
 ```
-Formula: (Defects Found / Test Cases Executed) × 100
+Formula: (Defects Found / Test Cases Executed) x 100
 ```
 
 **Interpretation:**
@@ -114,10 +114,10 @@ Example: 50 defects / 10 KLOC = 5 defects per KLOC
 │               DEFECT SEVERITY DISTRIBUTION                      │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│   Critical  ████████                           15%              │
-│   High      ██████████████                     25%              │
-│   Medium    ████████████████████████           40%              │
-│   Low       ████████████                       20%              │
+│   Critical  ########                           15%              │
+│   High      ##############                     25%              │
+│   Medium    ########################           40%              │
+│   Low       ############                       20%              │
 │                                                                 │
 │   0%    20%    40%    60%    80%    100%                       │
 └─────────────────────────────────────────────────────────────────┘
@@ -137,7 +137,7 @@ Example: 50 defects / 10 KLOC = 5 defects per KLOC
 **Definition:** Defects found in production that escaped testing.
 
 ```
-Formula: (Production Defects / Total Defects Found) × 100
+Formula: (Production Defects / Total Defects Found) x 100
 ```
 
 | Phase | Defects Found |
@@ -148,7 +148,7 @@ Formula: (Production Defects / Total Defects Found) × 100
 | Production | 10 |
 | **Total** | **100** |
 
-**Defect Leakage = (10 / 100) × 100 = 10%**
+**Defect Leakage = (10 / 100) x 100 = 10%**
 
 **Target:** < 5% defect leakage to production
 
@@ -159,13 +159,13 @@ Formula: (Production Defects / Total Defects Found) × 100
 **Definition:** Percentage of defects found before production.
 
 ```
-Formula: (Defects Found Before Release / Total Defects) × 100
+Formula: (Defects Found Before Release / Total Defects) x 100
 ```
 
 **Example:**
 - Pre-release defects: 90
 - Production defects: 10
-- DRE = (90 / 100) × 100 = **90%**
+- DRE = (90 / 100) x 100 = **90%**
 
 **Target:** DRE > 95%
 
@@ -195,7 +195,7 @@ Formula: Sum of (Closed Date - Open Date) / Number of Defects
 **Definition:** Percentage of requirements covered by test cases.
 
 ```
-Formula: (Requirements with Test Cases / Total Requirements) × 100
+Formula: (Requirements with Test Cases / Total Requirements) x 100
 ```
 
 ```
@@ -203,8 +203,8 @@ Formula: (Requirements with Test Cases / Total Requirements) × 100
 │                  REQUIREMENTS COVERAGE                         │
 ├────────────────────────────────────────────────────────────────┤
 │                                                                │
-│   Covered       ████████████████████████████████████   95%     │
-│   Not Covered   ██                                     5%      │
+│   Covered       ####################################   95%     │
+│   Not Covered   ##                                     5%      │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
@@ -231,7 +231,7 @@ Formula: (Requirements with Test Cases / Total Requirements) × 100
 **Definition:** Percentage of test cases automated.
 
 ```
-Formula: (Automated Test Cases / Total Test Cases) × 100
+Formula: (Automated Test Cases / Total Test Cases) x 100
 ```
 
 | Category | Total | Automated | Coverage |
@@ -248,10 +248,10 @@ Formula: (Automated Test Cases / Total Test Cases) × 100
 **Definition:** Return on investment from test automation.
 
 ```
-Formula: ((Manual Cost - Automation Cost) / Automation Cost) × 100
+Formula: ((Manual Cost - Automation Cost) / Automation Cost) x 100
 
 Where:
-- Manual Cost = Manual Execution Time × Hourly Rate × Number of Runs
+- Manual Cost = Manual Execution Time x Hourly Rate x Number of Runs
 - Automation Cost = Development Cost + Maintenance Cost + Execution Cost
 ```
 
@@ -267,10 +267,10 @@ Where:
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │   Planning    Development    Execution    Reporting             │
-│   ────────    ───────────    ─────────    ─────────             │
+│   --------    -----------    ---------    ---------             │
 │    3 days       5 days        7 days       2 days               │
 │                                                                 │
-│   │──────────────────────────────────────────────│              │
+│   |----------------------------------------------|              │
 │                     17 days total                               │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -283,7 +283,7 @@ Where:
 **Definition:** Ratio of productive testing time to total time.
 
 ```
-Formula: (Actual Test Execution Time / Total Testing Time) × 100
+Formula: (Actual Test Execution Time / Total Testing Time) x 100
 ```
 
 | Activity | Hours | Percentage |
@@ -309,13 +309,13 @@ Formula: (Actual Test Execution Time / Total Testing Time) × 100
 │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
 │   │  Pass Rate   │  │  Defect      │  │  Coverage    │         │
 │   │    92%       │  │  Leakage 3%  │  │    95%       │         │
-│   │   ↑ 2%       │  │   ↓ 1%       │  │   ↑ 5%       │         │
+│   │   +2%        │  │   -1%        │  │   +5%        │         │
 │   └──────────────┘  └──────────────┘  └──────────────┘         │
 │                                                                 │
 │   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
 │   │  Automation  │  │  DRE         │  │  Cycle Time  │         │
 │   │    75%       │  │   97%        │  │   12 days    │         │
-│   │   ↑ 10%      │  │   ↑ 2%       │  │   ↓ 3 days   │         │
+│   │   +10%       │  │   +2%        │  │   -3 days    │         │
 │   └──────────────┘  └──────────────┘  └──────────────┘         │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -341,18 +341,18 @@ Formula: (Actual Test Execution Time / Total Testing Time) × 100
 
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
-| Test Cases Executed | 100% | 98% | 🟡 |
-| Pass Rate | > 95% | 92% | 🟡 |
-| Defects Found | N/A | 25 | ℹ️ |
-| Critical Defects Open | 0 | 0 | 🟢 |
-| Automation Coverage | > 70% | 75% | 🟢 |
-| Defect Leakage | < 5% | 2% | 🟢 |
+| Test Cases Executed | 100% | 98% | At Risk |
+| Pass Rate | > 95% | 92% | At Risk |
+| Defects Found | N/A | 25 | Info |
+| Critical Defects Open | 0 | 0 | On Track |
+| Automation Coverage | > 70% | 75% | On Track |
+| Defect Leakage | < 5% | 2% | On Track |
 
 ### Status Legend:
-- 🟢 On Track
-- 🟡 At Risk
-- 🔴 Off Track
-- ℹ️ Informational
+- On Track - Meeting targets
+- At Risk - Needs attention
+- Off Track - Requires immediate action
+- Info - Informational only
 
 ---
 
@@ -360,19 +360,19 @@ Formula: (Actual Test Execution Time / Total Testing Time) × 100
 
 ### Choosing Metrics
 
-1. ✅ **Align with Goals** - Choose metrics that support project objectives
-2. ✅ **Keep it Simple** - Don't track too many metrics
-3. ✅ **Make it Actionable** - Metrics should drive decisions
-4. ✅ **Automate Collection** - Use tools for consistent data
-5. ✅ **Review Regularly** - Analyze trends, not just numbers
+1. **Align with Goals** - Choose metrics that support project objectives
+2. **Keep it Simple** - Don't track too many metrics
+3. **Make it Actionable** - Metrics should drive decisions
+4. **Automate Collection** - Use tools for consistent data
+5. **Review Regularly** - Analyze trends, not just numbers
 
 ### Common Pitfalls to Avoid
 
-1. ❌ **Vanity Metrics** - Metrics that look good but don't help
-2. ❌ **Gaming Metrics** - Optimizing for numbers, not quality
-3. ❌ **Too Many Metrics** - Analysis paralysis
-4. ❌ **Ignoring Context** - Numbers without understanding
-5. ❌ **Static Targets** - Not adjusting goals over time
+1. **Vanity Metrics** - Metrics that look good but don't help
+2. **Gaming Metrics** - Optimizing for numbers, not quality
+3. **Too Many Metrics** - Analysis paralysis
+4. **Ignoring Context** - Numbers without understanding
+5. **Static Targets** - Not adjusting goals over time
 
 ---
 
@@ -380,12 +380,12 @@ Formula: (Actual Test Execution Time / Total Testing Time) × 100
 
 | Metric | Formula |
 |--------|---------|
-| Execution Rate | (Executed / Total) × 100 |
-| Pass Rate | (Passed / Executed) × 100 |
+| Execution Rate | (Executed / Total) x 100 |
+| Pass Rate | (Passed / Executed) x 100 |
 | Defect Density | Defects / KLOC |
-| Defect Leakage | (Prod Defects / Total) × 100 |
-| DRE | (Pre-Prod Defects / Total) × 100 |
-| Coverage | (Covered Items / Total Items) × 100 |
-| Automation % | (Auto Tests / Total Tests) × 100 |
+| Defect Leakage | (Prod Defects / Total) x 100 |
+| DRE | (Pre-Prod Defects / Total) x 100 |
+| Coverage | (Covered Items / Total Items) x 100 |
+| Automation % | (Auto Tests / Total Tests) x 100 |
 | MTBF | Total Operating Time / Number of Failures |
 | MTTR | Total Repair Time / Number of Repairs |

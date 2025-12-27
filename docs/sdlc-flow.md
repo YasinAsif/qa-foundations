@@ -1,4 +1,4 @@
-# 🔄 Software Development Life Cycle (SDLC)
+# Software Development Life Cycle (SDLC)
 
 ## Overview
 
@@ -31,7 +31,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 1. 📋 Planning Phase
+## 1. Planning Phase
 
 **Objective:** Define the project scope, objectives, and feasibility.
 
@@ -49,7 +49,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 2. 📝 Requirements Analysis Phase
+## 2. Requirements Analysis Phase
 
 **Objective:** Gather and document detailed requirements from stakeholders.
 
@@ -67,7 +67,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 3. 🎨 Design Phase
+## 3. Design Phase
 
 **Objective:** Create the architecture and design of the system.
 
@@ -86,7 +86,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 4. 💻 Development Phase
+## 4. Development Phase
 
 **Objective:** Build the actual software based on design specifications.
 
@@ -104,7 +104,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 5. 🧪 Testing Phase
+## 5. Testing Phase
 
 **Objective:** Verify the software meets requirements and is bug-free.
 
@@ -123,7 +123,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 6. 🚀 Deployment Phase
+## 6. Deployment Phase
 
 **Objective:** Release the software to the production environment.
 
@@ -141,7 +141,7 @@ The Software Development Life Cycle (SDLC) is a systematic process for planning,
 
 ---
 
-## 7. 🔧 Maintenance Phase
+## 7. Maintenance Phase
 
 **Objective:** Provide ongoing support and enhancements.
 
@@ -190,8 +190,8 @@ Quality Assurance is involved throughout the SDLC:
 
 ## Best Practices
 
-1. ✅ **Early QA Involvement** - Include QA from the planning phase
-2. ✅ **Clear Documentation** - Maintain comprehensive documentation
-3. ✅ **Regular Reviews** - Conduct reviews at each phase transition
-4. ✅ **Risk Management** - Identify and mitigate risks early
-5. ✅ **Continuous Improvement** - Learn from each project cycle
+1. **Early QA Involvement** - Include QA from the planning phase
+2. **Clear Documentation** - Maintain comprehensive documentation
+3. **Regular Reviews** - Conduct reviews at each phase transition
+4. **Risk Management** - Identify and mitigate risks early
+5. **Continuous Improvement** - Learn from each project cycle

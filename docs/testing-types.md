@@ -1,4 +1,4 @@
-# 🔍 Types of Software Testing
+# Types of Software Testing
 
 ## Overview
 
@@ -16,13 +16,13 @@ Software testing can be categorized in multiple ways based on the testing approa
 │                         /\                                      │
 │                        /  \                                     │
 │                       /    \                                    │
-│                      / E2E  \         ◄── End-to-End Tests     │
+│                      / E2E  \         <-- End-to-End Tests     │
 │                     /________\            (Few, Slow, Costly)   │
 │                    /          \                                 │
-│                   / Integration\       ◄── Integration Tests   │
+│                   / Integration\       <-- Integration Tests   │
 │                  /______________\          (Medium)             │
 │                 /                \                              │
-│                /   Unit Tests     \    ◄── Unit Tests          │
+│                /   Unit Tests     \    <-- Unit Tests          │
 │               /____________________\       (Many, Fast, Cheap)  │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -87,7 +87,7 @@ test('adds 1 + 2 to equal 3', () => {
 │  ┌─┴─┐   ┌─┴─┐        ┌──┴──┐      ┌─┴─┐   ┌─┴─┐   │
 │  │ B │   │ C │        │  C  │      │ B │   │ C │   │
 │  └───┘   └───┘        └──┬──┘      └───┘   └───┘   │
-│    ↓       ↓             │           ↑       ↑     │
+│    |       |             │           ^       ^     │
 │  Stubs   Stubs        ┌──┴──┐      ┌─┴─┐   ┌─┴─┐   │
 │                       │  B  │      │ D │   │ E │   │
 │                       └──┬──┘      └───┘   └───┘   │
@@ -95,7 +95,7 @@ test('adds 1 + 2 to equal 3', () => {
 │                       ┌──┴──┐                      │
 │                       │  A  │                      │
 │                       └─────┘                      │
-│                         ↑                          │
+│                         ^                          │
 │                      Drivers                       │
 └─────────────────────────────────────────────────────┘
 ```
@@ -146,14 +146,14 @@ test('adds 1 + 2 to equal 3', () => {
 ├────────────────────────────┬────────────────────────────────────┤
 │     FUNCTIONAL TESTING     │     NON-FUNCTIONAL TESTING         │
 ├────────────────────────────┼────────────────────────────────────┤
-│ ▪ Unit Testing             │ ▪ Performance Testing              │
-│ ▪ Integration Testing      │ ▪ Load Testing                     │
-│ ▪ System Testing           │ ▪ Stress Testing                   │
-│ ▪ Acceptance Testing       │ ▪ Security Testing                 │
-│ ▪ Smoke Testing            │ ▪ Usability Testing                │
-│ ▪ Sanity Testing           │ ▪ Compatibility Testing            │
-│ ▪ Regression Testing       │ ▪ Reliability Testing              │
-│ ▪ Exploratory Testing      │ ▪ Scalability Testing              │
+│ - Unit Testing             │ - Performance Testing              │
+│ - Integration Testing      │ - Load Testing                     │
+│ - System Testing           │ - Stress Testing                   │
+│ - Acceptance Testing       │ - Security Testing                 │
+│ - Smoke Testing            │ - Usability Testing                │
+│ - Sanity Testing           │ - Compatibility Testing            │
+│ - Regression Testing       │ - Reliability Testing              │
+│ - Exploratory Testing      │ - Scalability Testing              │
 └────────────────────────────┴────────────────────────────────────┘
 ```
 
@@ -161,7 +161,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ## Detailed Testing Types
 
-### 📍 Smoke Testing
+### Smoke Testing
 
 **Purpose:** Verify basic functionality works after a new build.
 
@@ -174,7 +174,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Sanity Testing
+### Sanity Testing
 
 **Purpose:** Verify specific functionality after minor changes.
 
@@ -186,7 +186,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Regression Testing
+### Regression Testing
 
 **Purpose:** Ensure existing functionality is not broken by new changes.
 
@@ -203,11 +203,11 @@ test('adds 1 + 2 to equal 3', () => {
 │                                                 │
 │  When to Perform:                               │
 │  ┌─────────────────────────────────────────┐   │
-│  │ ▪ New feature added                      │   │
-│  │ ▪ Bug fix deployed                       │   │
-│  │ ▪ Configuration changes                  │   │
-│  │ ▪ Patch updates                          │   │
-│  │ ▪ Environment changes                    │   │
+│  │ - New feature added                      │   │
+│  │ - Bug fix deployed                       │   │
+│  │ - Configuration changes                  │   │
+│  │ - Patch updates                          │   │
+│  │ - Environment changes                    │   │
 │  └─────────────────────────────────────────┘   │
 │                                                 │
 └─────────────────────────────────────────────────┘
@@ -215,7 +215,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Exploratory Testing
+### Exploratory Testing
 
 **Purpose:** Simultaneous learning, test design, and execution.
 
@@ -227,7 +227,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Performance Testing
+### Performance Testing
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -264,7 +264,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Security Testing
+### Security Testing
 
 **Purpose:** Identify vulnerabilities and security risks.
 
@@ -285,11 +285,11 @@ test('adds 1 + 2 to equal 3', () => {
 7. Cross-Site Scripting (XSS)
 8. Insecure Deserialization
 9. Using Components with Known Vulnerabilities
-10. Insufficient Logging & Monitoring
+10. Insufficient Logging and Monitoring
 
 ---
 
-### 📍 Usability Testing
+### Usability Testing
 
 **Purpose:** Evaluate user experience and interface intuitiveness.
 
@@ -303,7 +303,7 @@ test('adds 1 + 2 to equal 3', () => {
 
 ---
 
-### 📍 Compatibility Testing
+### Compatibility Testing
 
 **Purpose:** Verify software works across different environments.
 
@@ -338,9 +338,9 @@ test('adds 1 + 2 to equal 3', () => {
 │                                                                 │
 │   BLACK BOX          GREY BOX           WHITE BOX              │
 │   ┌────────┐        ┌────────┐         ┌────────┐              │
-│   │ ▓▓▓▓▓▓ │        │ ░░▓▓▓▓ │         │ ░░░░░░ │              │
-│   │ ▓▓▓▓▓▓ │        │ ░░▓▓▓▓ │         │ ░░░░░░ │              │
-│   │ ▓▓▓▓▓▓ │        │ ░░▓▓▓▓ │         │ ░░░░░░ │              │
+│   │ ###### │        │ ..#### │         │ ...... │              │
+│   │ ###### │        │ ..#### │         │ ...... │              │
+│   │ ###### │        │ ..#### │         │ ...... │              │
 │   └────────┘        └────────┘         └────────┘              │
 │   No knowledge      Partial            Full                    │
 │   of internals      knowledge          knowledge               │
@@ -361,6 +361,6 @@ test('adds 1 + 2 to equal 3', () => {
 | Smoke | Build stability | Every build | QA Team |
 | Sanity | Specific changes | After fixes | QA Team |
 | Regression | Existing features | After changes | QA Team |
-| Performance | Speed & stability | Before release | Performance Team |
+| Performance | Speed and stability | Before release | Performance Team |
 | Security | Vulnerabilities | Before release | Security Team |
 | Usability | User experience | During development | UX Team |

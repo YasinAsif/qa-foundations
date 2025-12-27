@@ -1,4 +1,4 @@
-# 🐛 Bug Report #2
+# Bug Report #2
 
 ## Bug ID: BUG-002
 
@@ -41,16 +41,16 @@ When users change the currency from USD to EUR or other currencies, the product 
 ## Expected Result
 
 - Price should be converted using the correct exchange rate
-- $100.00 USD should be approximately €92.00 EUR (at rate 0.92)
-- Currency symbol should change to €
+- $100.00 USD should be approximately 92.00 EUR (at rate 0.92)
+- Currency symbol should change to the Euro symbol
 
 ---
 
 ## Actual Result
 
-- Price shows €108.70 EUR instead of €92.00 EUR
+- Price shows 108.70 EUR instead of 92.00 EUR
 - The conversion appears to use the inverse of the actual rate
-- This results in prices that are ~18% higher than they should be
+- This results in prices that are approximately 18% higher than they should be
 
 ---
 
@@ -58,20 +58,22 @@ When users change the currency from USD to EUR or other currencies, the product 
 
 | Original Price (USD) | Expected (EUR) | Actual (EUR) | Variance |
 |---------------------|----------------|--------------|----------|
-| $100.00 | €92.00 | €108.70 | +18.15% |
-| $250.00 | €230.00 | €271.74 | +18.15% |
-| $49.99 | €45.99 | €54.33 | +18.13% |
+| $100.00 | 92.00 | 108.70 | +18.15% |
+| $250.00 | 230.00 | 271.74 | +18.15% |
+| $49.99 | 45.99 | 54.33 | +18.13% |
 
 ---
 
 ## Impact Analysis
 
 ### Business Impact
-- 🔴 **Critical** - Customers may be overcharged if they proceed to purchase
-- 🔴 **Legal Risk** - Price misrepresentation could lead to legal issues
-- 🔴 **Trust** - Customer trust will be severely impacted
+
+- **Critical** - Customers may be overcharged if they proceed to purchase
+- **Legal Risk** - Price misrepresentation could lead to legal issues
+- **Trust** - Customer trust will be severely impacted
 
 ### User Impact
+
 - Affects all users who change currency
 - Estimated 30% of users use non-USD currency
 
@@ -125,10 +127,10 @@ The conversion formula appears to be:
 
 | Check | Status |
 |-------|--------|
-| Verify USD to EUR conversion | ⏳ |
-| Verify USD to GBP conversion | ⏳ |
-| Verify USD to JPY conversion | ⏳ |
-| Verify reverse conversions | ⏳ |
-| Test on cart page | ⏳ |
-| Test on checkout page | ⏳ |
-| Regression test passed | ⏳ |
+| Verify USD to EUR conversion | Pending |
+| Verify USD to GBP conversion | Pending |
+| Verify USD to JPY conversion | Pending |
+| Verify reverse conversions | Pending |
+| Test on cart page | Pending |
+| Test on checkout page | Pending |
+| Regression test passed | Pending |

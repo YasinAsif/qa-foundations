@@ -1,4 +1,4 @@
-# 🧪 Software Testing Life Cycle (STLC)
+# Software Testing Life Cycle (STLC)
 
 ## Overview
 
@@ -12,38 +12,38 @@ The Software Testing Life Cycle (STLC) is a sequence of specific activities cond
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  ┌─────────────────┐                                                        │
-│  │   Requirement   │ ◄── Entry: Requirements Documents                      │
-│  │    Analysis     │ ──► Exit: RTM, Automation Feasibility Report           │
+│  │   Requirement   │ <-- Entry: Requirements Documents                      │
+│  │    Analysis     │ --> Exit: RTM, Automation Feasibility Report           │
 │  └────────┬────────┘                                                        │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │  Test Planning  │ ◄── Entry: Requirements, RTM                           │
-│  │                 │ ──► Exit: Test Plan, Effort Estimation                 │
+│  │  Test Planning  │ <-- Entry: Requirements, RTM                           │
+│  │                 │ --> Exit: Test Plan, Effort Estimation                 │
 │  └────────┬────────┘                                                        │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │   Test Case     │ ◄── Entry: Requirements, Test Plan                     │
-│  │  Development    │ ──► Exit: Test Cases, Test Data, Scripts               │
+│  │   Test Case     │ <-- Entry: Requirements, Test Plan                     │
+│  │  Development    │ --> Exit: Test Cases, Test Data, Scripts               │
 │  └────────┬────────┘                                                        │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │  Environment    │ ◄── Entry: System Design, Env Setup Plan               │
-│  │     Setup       │ ──► Exit: Environment Ready, Smoke Test Results        │
+│  │  Environment    │ <-- Entry: System Design, Env Setup Plan               │
+│  │     Setup       │ --> Exit: Environment Ready, Smoke Test Results        │
 │  └────────┬────────┘                                                        │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │ Test Execution  │ ◄── Entry: Test Cases, Test Data, Environment          │
-│  │                 │ ──► Exit: Test Results, Defect Reports                 │
+│  │ Test Execution  │ <-- Entry: Test Cases, Test Data, Environment          │
+│  │                 │ --> Exit: Test Results, Defect Reports                 │
 │  └────────┬────────┘                                                        │
 │           │                                                                 │
 │           ▼                                                                 │
 │  ┌─────────────────┐                                                        │
-│  │  Test Cycle     │ ◄── Entry: Test Results, Defect Logs                   │
-│  │    Closure      │ ──► Exit: Test Closure Report, Metrics                 │
+│  │  Test Cycle     │ <-- Entry: Test Results, Defect Logs                   │
+│  │    Closure      │ --> Exit: Test Closure Report, Metrics                 │
 │  └─────────────────┘                                                        │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -51,7 +51,7 @@ The Software Testing Life Cycle (STLC) is a sequence of specific activities cond
 
 ---
 
-## Phase 1: 📋 Requirement Analysis
+## Phase 1: Requirement Analysis
 
 ### Objective
 Understand and analyze the testing requirements.
@@ -75,13 +75,13 @@ Understand and analyze the testing requirements.
 - Clarified requirements
 
 ### Deliverables
-- ✅ Requirement Traceability Matrix (RTM)
-- ✅ Automation Feasibility Report
-- ✅ List of Testable Requirements
+- Requirement Traceability Matrix (RTM)
+- Automation Feasibility Report
+- List of Testable Requirements
 
 ---
 
-## Phase 2: 📝 Test Planning
+## Phase 2: Test Planning
 
 ### Objective
 Define the test strategy and plan for the project.
@@ -106,10 +106,10 @@ Define the test strategy and plan for the project.
 - Resource Planning
 
 ### Deliverables
-- ✅ Test Plan Document
-- ✅ Effort Estimation
-- ✅ Resource Plan
-- ✅ Test Schedule
+- Test Plan Document
+- Effort Estimation
+- Resource Plan
+- Test Schedule
 
 ### Test Plan Components
 ```
@@ -122,16 +122,16 @@ Define the test strategy and plan for the project.
 │ 4. Test Environment                 │
 │ 5. Entry/Exit Criteria              │
 │ 6. Test Deliverables                │
-│ 7. Roles & Responsibilities         │
+│ 7. Roles and Responsibilities       │
 │ 8. Risk Analysis                    │
-│ 9. Schedule & Milestones            │
-│ 10. Tools & Resources               │
+│ 9. Schedule and Milestones          │
+│ 10. Tools and Resources             │
 └─────────────────────────────────────┘
 ```
 
 ---
 
-## Phase 3: 🔧 Test Case Development
+## Phase 3: Test Case Development
 
 ### Objective
 Create detailed test cases and prepare test data.
@@ -156,10 +156,10 @@ Create detailed test cases and prepare test data.
 - Test Data Ready
 
 ### Deliverables
-- ✅ Test Cases
-- ✅ Test Data
-- ✅ Automation Scripts
-- ✅ Updated RTM
+- Test Cases
+- Test Data
+- Automation Scripts
+- Updated RTM
 
 ### Test Case Template
 ```
@@ -186,7 +186,7 @@ Create detailed test cases and prepare test data.
 
 ---
 
-## Phase 4: 🖥️ Test Environment Setup
+## Phase 4: Test Environment Setup
 
 ### Objective
 Prepare the hardware and software environment for testing.
@@ -211,13 +211,13 @@ Prepare the hardware and software environment for testing.
 - Access permissions granted
 
 ### Deliverables
-- ✅ Environment Ready
-- ✅ Smoke Test Results
-- ✅ Environment Documentation
+- Environment Ready
+- Smoke Test Results
+- Environment Documentation
 
 ---
 
-## Phase 5: ▶️ Test Execution
+## Phase 5: Test Execution
 
 ### Objective
 Execute test cases and report defects.
@@ -243,10 +243,10 @@ Execute test cases and report defects.
 - Test summary report created
 
 ### Deliverables
-- ✅ Test Execution Results
-- ✅ Defect Reports
-- ✅ Updated RTM
-- ✅ Daily Status Reports
+- Test Execution Results
+- Defect Reports
+- Updated RTM
+- Daily Status Reports
 
 ### Defect Life Cycle
 ```
@@ -270,7 +270,7 @@ Execute test cases and report defects.
 
 ---
 
-## Phase 6: 📊 Test Cycle Closure
+## Phase 6: Test Cycle Closure
 
 ### Objective
 Conclude testing activities and document learnings.
@@ -295,9 +295,9 @@ Conclude testing activities and document learnings.
 - Artifacts archived
 
 ### Deliverables
-- ✅ Test Closure Report
-- ✅ Test Metrics
-- ✅ Lessons Learned Document
+- Test Closure Report
+- Test Metrics
+- Lessons Learned Document
 
 ---
 
@@ -307,12 +307,12 @@ Conclude testing activities and document learnings.
 ┌─────────────────────────────────────────────────────────────┐
 │           SDLC                    STLC                      │
 ├─────────────────────────────────────────────────────────────┤
-│  Requirements     ◄────────►   Requirement Analysis         │
-│  Design           ◄────────►   Test Planning                │
-│  Development      ◄────────►   Test Case Development        │
-│  Testing          ◄────────►   Test Execution               │
-│  Deployment       ◄────────►   Test Cycle Closure           │
-│  Maintenance      ◄────────►   Regression Testing           │
+│  Requirements     <-------->   Requirement Analysis         │
+│  Design           <-------->   Test Planning                │
+│  Development      <-------->   Test Case Development        │
+│  Testing          <-------->   Test Execution               │
+│  Deployment       <-------->   Test Cycle Closure           │
+│  Maintenance      <-------->   Regression Testing           │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -322,8 +322,8 @@ Conclude testing activities and document learnings.
 
 | Metric | Formula |
 |--------|---------|
-| **Test Case Execution Rate** | (Executed Tests / Total Tests) × 100 |
-| **Pass Rate** | (Passed Tests / Executed Tests) × 100 |
+| **Test Case Execution Rate** | (Executed Tests / Total Tests) x 100 |
+| **Pass Rate** | (Passed Tests / Executed Tests) x 100 |
 | **Defect Density** | Defects / Size (KLOC or FP) |
-| **Defect Leakage** | (Defects in Production / Total Defects) × 100 |
-| **Test Coverage** | (Requirements Covered / Total Requirements) × 100 |
+| **Defect Leakage** | (Defects in Production / Total Defects) x 100 |
+| **Test Coverage** | (Requirements Covered / Total Requirements) x 100 |
