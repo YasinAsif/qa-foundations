@@ -1,8 +1,8 @@
-# 🤝 Contributing to QA Foundations
+# Contributing to QA Foundations
 
-First off, thank you for considering contributing to QA Foundations! It's people like you that make this resource valuable for the QA community.
+Thank you for considering contributing to QA Foundations. This document provides guidelines and instructions for contributing.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
@@ -13,46 +13,46 @@ First off, thank you for considering contributing to QA Foundations! It's people
 
 ---
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ---
 
-## 🎯 How Can I Contribute?
+## How Can I Contribute?
 
-### 📝 Documentation Improvements
+### Documentation Improvements
 
 - Fix typos or grammatical errors
 - Add more examples to existing documents
 - Improve explanations or diagrams
 - Translate content to other languages
 
-### 🧪 Add Test Cases
+### Add Test Cases
 
 - Add test cases for new modules/features
 - Improve existing test cases with edge cases
 - Add test data examples
 
-### 🐛 Bug Reports Examples
+### Bug Report Examples
 
 - Add real-world bug report examples
 - Include different severity/priority scenarios
 - Add bug reports from different domains
 
-### 📚 New Documentation
+### New Documentation
 
 - Add new QA concepts or methodologies
 - Create tutorials for QA tools
 - Add interview preparation content
 
-### 💡 Suggest Enhancements
+### Suggest Enhancements
 
-Have ideas for new content? Open an issue to discuss!
+Have ideas for new content? Open an issue to discuss.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ Have ideas for new content? Open an issue to discuss!
 - GitHub account
 - Basic understanding of Markdown
 
-### Fork & Clone
+### Fork and Clone
 
 1. **Fork the repository**
    - Click the "Fork" button on GitHub
@@ -83,14 +83,14 @@ Have ideas for new content? Open an issue to discuss!
 
 ---
 
-## 🔄 Pull Request Process
+## Pull Request Process
 
 ### Before Submitting
 
-1. ✅ Ensure your content follows the [style guidelines](#style-guidelines)
-2. ✅ Check for spelling and grammar errors
-3. ✅ Update the README if adding new files
-4. ✅ Test any links you've added
+1. Ensure your content follows the style guidelines
+2. Check for spelling and grammar errors
+3. Update the README if adding new files
+4. Test any links you've added
 
 ### Submitting a PR
 
@@ -119,7 +119,7 @@ Have ideas for new content? Open an issue to discuss!
 
 ---
 
-## 📐 Style Guidelines
+## Style Guidelines
 
 ### Markdown Formatting
 
@@ -169,16 +169,16 @@ Additional learning materials
 
 | Field | Required |
 |-------|----------|
-| Summary | ✅ Yes |
-| Severity | ✅ Yes |
-| Steps to Reproduce | ✅ Yes |
-| Expected Result | ✅ Yes |
-| Actual Result | ✅ Yes |
+| Summary | Yes |
+| Severity | Yes |
+| Steps to Reproduce | Yes |
+| Expected Result | Yes |
+| Actual Result | Yes |
 | Screenshots | Optional |
 
 ---
 
-## 🏷️ Commit Message Guidelines
+## Commit Message Guidelines
 
 Use semantic commit messages:
 
@@ -200,27 +200,27 @@ Remove: outdated references
 
 ---
 
-## 🌟 Recognition
+## Recognition
 
 Contributors will be:
 - Listed in our Contributors section
 - Credited in release notes
-- Part of the QA Foundations community!
+- Part of the QA Foundations community
 
 ---
 
-## 💬 Community
+## Community
 
 - **Questions?** Open a [Discussion](https://github.com/YasinAsif/qa-foundations/discussions)
 - **Issues?** Check [existing issues](https://github.com/YasinAsif/qa-foundations/issues) first
-- **Ideas?** We'd love to hear them!
+- **Ideas?** We welcome your suggestions
 
 ---
 
-## 📄 License
+## License
 
 By contributing, you agree that your contributions will be shared under the same license as this project.
 
 ---
 
-**Thank you for contributing! 🎉**
+Thank you for contributing.

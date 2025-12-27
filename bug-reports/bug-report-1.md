@@ -1,4 +1,4 @@
-# 🐛 Bug Report #1
+# Bug Report #1
 
 ## Bug ID: BUG-001
 
@@ -57,13 +57,14 @@ The login button on the login page does not respond to tap gestures on mobile de
 ## Additional Information
 
 ### Devices Tested
+
 | Device | Browser | OS Version | Status |
 |--------|---------|------------|--------|
-| iPhone 14 | Safari | iOS 17.2 | ❌ Failing |
-| iPhone 12 | Safari | iOS 16.4 | ❌ Failing |
-| Samsung S23 | Chrome | Android 14 | ❌ Failing |
-| Pixel 7 | Chrome | Android 13 | ❌ Failing |
-| Desktop | Chrome | Windows 11 | ✅ Working |
+| iPhone 14 | Safari | iOS 17.2 | Failing |
+| iPhone 12 | Safari | iOS 16.4 | Failing |
+| Samsung S23 | Chrome | Android 14 | Failing |
+| Pixel 7 | Chrome | Android 13 | Failing |
+| Desktop | Chrome | Windows 11 | Working |
 
 ### Console Errors
 ```
@@ -91,7 +92,7 @@ _Pending investigation_
 
 | Verification Item | Status |
 |-------------------|--------|
-| Bug Fix Deployed | ⏳ |
-| Retested on iOS | ⏳ |
-| Retested on Android | ⏳ |
-| Regression Passed | ⏳ |
+| Bug Fix Deployed | Pending |
+| Retested on iOS | Pending |
+| Retested on Android | Pending |
+| Regression Passed | Pending |

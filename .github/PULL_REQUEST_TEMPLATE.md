@@ -1,27 +1,27 @@
-## 📝 Description
+## Description
 
 Brief description of your changes.
 
-## 🔗 Related Issue
+## Related Issue
 
 Fixes #(issue number)
 
-## 📋 Type of Change
+## Type of Change
 
-- [ ] 📝 Documentation update
-- [ ] 🧪 New test cases
-- [ ] 🐛 New bug report examples
-- [ ] 🔧 Fix (typo, error, broken link)
-- [ ] ✨ New feature/content
-- [ ] 🔄 Refactoring
+- [ ] Documentation update
+- [ ] New test cases
+- [ ] New bug report examples
+- [ ] Fix (typo, error, broken link)
+- [ ] New feature/content
+- [ ] Refactoring
 
-## 📁 Files Changed
+## Files Changed
 
 List the files you've modified:
 - `path/to/file1.md`
 - `path/to/file2.md`
 
-## ✅ Checklist
+## Checklist
 
 - [ ] My content follows the style guidelines of this project
 - [ ] I have checked for spelling and grammar errors
@@ -29,10 +29,10 @@ List the files you've modified:
 - [ ] All links are working correctly
 - [ ] I have added myself to contributors (optional)
 
-## 📸 Screenshots (if applicable)
+## Screenshots (if applicable)
 
 Add screenshots to help explain your changes.
 
-## 📝 Additional Notes
+## Additional Notes
 
 Any additional information reviewers should know.

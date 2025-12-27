@@ -1,16 +1,16 @@
 ---
-name: 💡 Feature Request
+name: Feature Request
 about: Suggest new content or improvements
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''
 ---
 
-## 💡 Feature Description
+## Feature Description
 
 A clear and concise description of the feature or content you'd like to see.
 
-## 🎯 Category
+## Category
 
 What type of content is this?
 
@@ -21,7 +21,7 @@ What type of content is this?
 - [ ] New QA tool guide
 - [ ] Other (please specify)
 
-## 📚 Proposed Content
+## Proposed Content
 
 Describe what you'd like to see added:
 
@@ -38,23 +38,23 @@ Describe what you'd like to see added:
 Provide an example of what the content might look like
 ```
 
-## 🎁 Benefits
+## Benefits
 
 Why would this be valuable for the QA community?
 
 - Benefit 1
 - Benefit 2
 
-## 📝 Additional Context
+## Additional Context
 
 Add any other context, links, or references here.
 
-## 🙋 Contribution
+## Contribution
 
 - [ ] I would like to contribute this content myself
 - [ ] I need help from maintainers
 
-## ✅ Checklist
+## Checklist
 
 - [ ] I have searched existing issues/discussions for similar requests
 - [ ] This content would benefit the QA community

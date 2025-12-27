@@ -1,4 +1,4 @@
-# 📜 Contributor Covenant Code of Conduct
+# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
@@ -8,7 +8,7 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 
 ## Our Standards
 
-### ✅ Examples of behavior that contributes to a positive environment:
+### Examples of behavior that contributes to a positive environment:
 
 - Using welcoming and inclusive language
 - Being respectful of differing viewpoints and experiences
@@ -17,7 +17,7 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 - Showing empathy towards other community members
 - Helping newcomers learn and grow
 
-### ❌ Examples of unacceptable behavior:
+### Examples of unacceptable behavior:
 
 - The use of sexualized language or imagery, and sexual attention or advances of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
@@ -35,9 +35,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at:
-
-📧 **[Contact via GitHub Issues]**
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement via GitHub Issues.
 
 All complaints will be reviewed and investigated promptly and fairly.
 
@@ -46,21 +44,25 @@ All complaints will be reviewed and investigated promptly and fairly.
 Community leaders will follow these Community Impact Guidelines:
 
 ### 1. Correction
+
 **Community Impact:** Minor inappropriate behavior.
 
 **Consequence:** A private, written warning with clarity around the nature of the violation.
 
 ### 2. Warning
+
 **Community Impact:** A violation through a single incident or series of actions.
 
 **Consequence:** A warning with consequences for continued behavior.
 
 ### 3. Temporary Ban
+
 **Community Impact:** A serious violation of community standards.
 
 **Consequence:** A temporary ban from any sort of interaction with the community.
 
 ### 4. Permanent Ban
+
 **Community Impact:** Pattern of violation or severe harassment.
 
 **Consequence:** A permanent ban from any sort of public interaction within the community.
@@ -68,7 +70,3 @@ Community leaders will follow these Community Impact Guidelines:
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
-
----
-
-**Together, let's build a welcoming QA community! 🤝**
